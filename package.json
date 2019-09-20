@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-fayvue",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "vue model",
   "main": "index.js",
   "license": "MIT",
