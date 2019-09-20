@@ -7,7 +7,7 @@
       text-color="#fff"
       active-text-color="#ffd04b"
       router>
-      <el-menu-item index="/">首页</el-menu-item>
+      <el-menu-item index="/home">首页</el-menu-item>
       <el-submenu index="/demo">
         <template slot="title">test</template>
         <el-menu-item index="/demo/test">test</el-menu-item>

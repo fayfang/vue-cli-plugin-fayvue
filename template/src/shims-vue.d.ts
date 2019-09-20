@@ -13,7 +13,3 @@ declare module 'vue/types/vue' {
 declare module '*.styl';
 declare module '*.js';
 declare module '*.tsx';
-declare module '*.md';
-
-declare module 'element-ui';
-declare module 'axios';

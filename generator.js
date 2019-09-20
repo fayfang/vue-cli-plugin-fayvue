@@ -3,7 +3,8 @@ module.exports = (api, options, rootOptions) => {
   api.extendPackage({
     "devDependencies": {
       "stylus": "^0.54.7",
-      "stylus-loader": "^3.0.2"
+      "stylus-loader": "^3.0.2",
+      "@types/lodash": "^4.14.138"
     },
     "dependencies": {
       "element-ui": "^2.12.0",
