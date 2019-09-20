@@ -1,0 +1,25 @@
+.totalSize
+  width: 100%
+  height: 100%
+
+.normalPadding
+  padding: $SizeM
+
+// padding 和 margin 类的配置
+$rect = "top" "right" "bottom" "left"
+$size = "S" "M" "L" "LL" "LLL"
+$sizeNum = $SizeS $SizeM $SizeL $SizeLL $SizeLLL
+
+.marginM
+  margin: $SizeM
+
+for size,index in $size
+  .margin{size}
+    margin: $sizeNum[index]
+  .padding{size}
+    padding: $sizeNum[index]
+  for pos in $rect
+    .margin{size}-{pos}
+      margin-{pos}: $sizeNum[index]
+    .padding{size}-{pos}
+      padding-{pos}: $sizeNum[index]
